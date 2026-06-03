@@ -18,6 +18,7 @@ This Jupyter Notebook collection is designed to support students implement [Prog
 7. [OOP with some MLOps Neural Network Intermediate Classification Implementation](examples/7.OOP_MLOps_Neural_Network_Intermediate.ipynb)
 8. [OOP Neural Network Image Classification Implementation](examples/8.OOP_Neural_Network_Adv.ipynb).
 9. [OOP Decision Trees Image Classification Implementation](examples/9.OPP_Decision_Trees.ipynb).
+10. [Non-OOP K-Means Clustering Unsupervised Learning Implementation](examples/10.K_Means_Clustering.ipynb).
 
 ## Other Jupyter Notebooks In the TempeHS Machine Learning Series
 
