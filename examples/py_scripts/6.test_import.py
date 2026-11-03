@@ -1,15 +1,13 @@
-import exporter
 import pickle
 import numpy as np
-import os
-#Create a folder for the output files
-if not os.path.exists("../output"):
-    os.makedirs("../output")
+import exporter
 
-exporter.save_model()
+# Train the model and save it to the output folder
+filename = exporter.save_model()
 
-loaded_model = pickle.load(open('../output/my_saved_model.sav', 'rb'))
+# Load the saved model and use it to make a prediction
+with open(filename, 'rb') as f:
+    loaded_model = pickle.load(f)
 predict = np.array([4]).reshape(1, -1)
 result = loaded_model.predict(predict)
 print(result[0])
-
